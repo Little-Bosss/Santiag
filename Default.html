@@ -1,0 +1,303 @@
+<html>
+    <head>
+        <!--Default Page-->
+        <title>Santiag</title>
+    </head>
+    <body> <!--Beginning-----------------------> <div>
+        <div id="Santiag">
+            <div id="parts">
+                <div id="left-part">
+                    <p>
+                        <a id="Language" href="Index.html">EN</a><br>
+                        <a id="Language" href="FR-MainPage.html">FR</a><br>
+                        <a id="Language" href="IT-MainPage.html">IT</a>
+                    </p>
+                </div>
+                <div id="middle-part">
+                    <p><a href="Index.html">S A N T I A G</a></p>
+                </div>
+                <div id="right-part">
+                    <a href="Membership.html"><img class="PNG1" src="https://icon-library.com/images/profile-icon-white/profile-icon-white-22.jpg"></a>
+                    <a href="ShoppingCart.html"><img class="PNG2" src="https://png.pngtree.com/png-vector/20190425/ourlarge/pngtree-vector-shopping-bag-icon-png-image_987256.jpg"></a>
+                    <img src="logo-noir.pdf">
+                </div>
+            </div>
+            <br>
+                <a id="StartLink1" href="Products-Man.html">Man</a>
+                <a id="StartLink2" href="Products-Woman.html">Woman</a>
+                <a id="StartLink3" href="History.html">About</a>
+        </div>
+
+        <div id="ManLinks" class="HoverLinks" style="background-color: gray; padding: 0.5em; text-align: center;">
+            <a class="MiddleLinks" href="Products-Man.html">All</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectArrivals">New Arrivals</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectClothes">Clothes</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectShoes">Shoes</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectAccessories">Accessories</a>
+        </div>
+
+        <div id="WomanLinks" class="HoverLinks" style="background-color: gray; padding: 0.5em; text-align: center;">
+            <a class="MiddleLinks" href="Products-Woman.html">This</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectArrivals">Thing</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectClothes">Will</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectShoes">Work</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectAccessories">Out</a>
+        </div>
+
+
+<!---------------NavBar---------------------------------New arrival Part------------------->
+
+
+<!---------------NavBar---------------------------------New arrival Part------------------->
+
+<footer>
+    <div class="footer-section" style="width: 7%;">
+        <img src="logo-blanc.pdf" style="max-width: 10em; height: auto; float: left; margin-left: -3.5em; margin-top: -1em;">
+    </div>
+
+    <div class="footer-section">
+        <h2>About Santiag</h2>
+        <p>Santiag is a Belgian based company, operating since 1992. Our main goal is to provide efficient service to retailers. <br> Click <a href="History.html" style="color: white; text-decoration: underline;">here</a> for more information.</p>
+    </div>
+    
+    <div class="footer-section">
+        <h2>Customer Care</h2>
+        <ul>
+          <li><a id="FooterLinks" href="Contact.html">Contact Us</a></li>
+          <li><a id="FooterLinks" href="FAQ.html">FAQs</a></li>
+          <li><a id="FooterLinks" href="ShippingReturns.html">Shipping & Returns</a></li>
+          <li><a id="FooterLinks" href="TermsConditions.html">Terms & Conditions</a></li>
+        </ul>
+    </div>
+    
+    <div class="footer-section">
+        <h2>Our Store</h2>
+        <p>We hope opening our first physical location very soon. Until then, enjoy our web store.</p>
+    </div>
+  
+    <div class="footer-section">
+        <h2>Special Requests</h2>
+        <ul>
+          <li>Rubi.Crisi@gmail.com</li>
+        </ul>
+      </div>
+      <p id="RightsReserved">&copy; 2023 Santiag. All rights reserved.</p>
+  </footer>
+
+  <script>
+        // Function to show the ManLinks
+        function showManLinks() {
+            document.getElementById("ManLinks").style.display = "block";
+        }
+    
+        // Function to hide the ManLinks
+        function hideManLinks() {
+            // Check if the cursor is not over the ManLinks
+            if (!isCursorOverElement("ManLinks")) {
+                document.getElementById("ManLinks").style.display = "none";
+            }
+        }
+    
+        // Function to check if the cursor is over an element
+        function isCursorOverElement(elementId) {
+            var element = document.getElementById(elementId);
+            var rect = element.getBoundingClientRect();
+            return (
+                event.clientX >= rect.left &&
+                event.clientX <= rect.right &&
+                event.clientY >= rect.top &&
+                event.clientY <= rect.bottom
+            );
+        }
+    
+        // Function to show the WomanLinks (you can add similar functions for Woman)
+        function showWomanLinks() {
+            document.getElementById("WomanLinks").style.display = "block";
+        }
+    
+        // Function to hide the WomanLinks
+        function hideWomanLinks() {
+            if (!isCursorOverElement("WomanLinks")) {
+                document.getElementById("WomanLinks").style.display = "none";
+            }
+        }
+    
+        // Add event listeners to the "Man" and "Woman" links
+        document.getElementById("StartLink1").addEventListener("mouseenter", showManLinks);
+        document.getElementById("StartLink1").addEventListener("mouseleave", hideManLinks);
+    
+        document.getElementById("StartLink2").addEventListener("mouseenter", showWomanLinks);
+        document.getElementById("StartLink2").addEventListener("mouseleave", hideWomanLinks);
+    
+        // Add event listener to the ManLinks div to keep it visible when hovering over it
+        document.getElementById("ManLinks").addEventListener("mouseenter", showManLinks);
+        document.getElementById("ManLinks").addEventListener("mouseleave", hideManLinks);
+    
+        // Add event listener to the WomanLinks div to keep it visible when hovering over it
+        document.getElementById("WomanLinks").addEventListener("mouseenter", showWomanLinks);
+        document.getElementById("WomanLinks").addEventListener("mouseleave", hideWomanLinks);
+
+        //------------------------------------------------------------------------------------
+</script>
+
+</body>
+  
+  <style>
+        body {
+        margin: 0;
+    }
+
+    #Santiag {
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding-top: 0.3em;
+        padding-bottom: 0.5em;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    #parts {
+        display: flex;
+        align-items: center;
+    }
+
+    #left-part {
+        flex: 1;
+        margin-left: 25px;
+        text-align: left;
+    }
+
+    #language {
+        color: white;
+        text-decoration: none;
+    }
+
+    #language:hover {
+        text-decoration: underline;
+    }
+
+    #middle-part {
+        flex: 2;
+        text-align: center;
+    }
+
+    #middle-part a {
+        font-size: 22;
+        letter-spacing: 1.2vw;
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    #middle-part a:hover {
+        letter-spacing: 1.6vw;
+    }
+
+    #right-part {
+        flex: 1;
+        text-align: right;
+        padding-right: 1.5em;
+        margin-top: -2.5em;
+    }
+
+    .PNG1 {
+        width: auto;
+        height: 2em;
+
+    }
+
+    .PNG2 {
+        width: auto;
+        height: 2.4em;
+    }
+
+    #StartLink1, #StartLink2, #StartLink3 {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding-top: 0;
+        padding: 0.8em;
+    }
+
+    #StartLink1:hover, #StartLink2:hover, #StartLink3:hover {
+        text-decoration: underline;
+    }
+
+    #Santiag img {
+        max-height: 2.4em; 
+        width: auto;
+        padding-top: 1em;
+    }
+
+    .HoverLinks {
+        display: none;
+        background-color: gray;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    .MiddleLinks {
+        color: white;
+        text-decoration: none;
+        padding: 0.8em;
+    }
+
+    .MiddleLinks:hover {
+        text-decoration: underline;
+    }
+
+    /*-----------------------------------------------------------------*/
+        /****************************************/
+
+    footer {
+        background-color: black;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .footer-section {
+        width: 23%; /* Adjust the width as needed */
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #FooterLinks {
+        color: white;
+        text-decoration: none;
+    }
+
+    #FooterLinks:hover {
+        text-decoration: underline;
+    }
+
+    #RightsReserved {
+        padding-top: 1.5em;
+        width: 25%; /* Set the width */
+        margin: 0 auto; /* Center horizontally */
+    }
+</style>
+
+</html>

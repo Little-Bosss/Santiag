@@ -1,0 +1,1031 @@
+<html>
+    <head>
+        <!--Shirt page - Item 2 - F. Inghirami-->
+        <title>Santiag</title>
+    </head>
+
+    <body>
+        <div id="Santiag">
+            <div id="parts">
+                <div id="left-part">
+                    <p>
+                        <a id="Language" href="Index.html">EN</a><br>
+                        <a id="Language" href="FR-MainPage.html">FR</a><br>
+                        <a id="Language" href="IT-MainPage.html">IT</a>
+                    </p>
+                </div>
+                <div id="middle-part">
+                    <p><a href="Index.html">S A N T I A G</a></p>
+                </div>
+                <div id="right-part">
+                    <a href="Membership.html"><img class="PNG1" src="https://icon-library.com/images/profile-icon-white/profile-icon-white-22.jpg"></a>
+                    <a href="ShoppingCart.html"><img class="PNG2" src="https://png.pngtree.com/png-vector/20190425/ourlarge/pngtree-vector-shopping-bag-icon-png-image_987256.jpg"></a>
+                    <img src="logo-blanc.pdf">
+                </div>
+            </div>
+            <br>
+                <a id="StartLink1" href="Products-Man.html">Man</a>
+                <a id="StartLink2" href="Products-Woman.html">Woman</a>
+                <a id="StartLink3" href="History.html">About</a>
+        </div>
+
+        <div id="ManLinks" class="HoverLinks" style="background-color: #ACB7C3; padding: 0.5em; text-align: center;">
+            <a class="MiddleLinks" href="Products-Man.html">All</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectArrivals">New Arrivals</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectClothes">Clothes</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectShoes">Shoes</a>
+            <a class="MiddleLinks" href="Products-Man.html#RedirectAccessories">Accessories</a>
+        </div>
+
+        <div id="WomanLinks" class="HoverLinks" style="background-color: #ACB7C3; padding: 0.5em; text-align: center;">
+            <a class="MiddleLinks" href="Products-Woman.html">This</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectArrivals">Thing</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectClothes">Will</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectShoes">Work</a>
+            <a class="MiddleLinks" href="Products-Woman.html#RedirectAccessories">Out</a>
+        </div>
+
+
+<!---------------NavBar---------------------------------New arrival Part------------------->
+
+<h1 style="display: flex; align-items: center;">
+    <div style="display: inline-block; margin-left: -1.5em; margin-right: 0.5em; width: 0.2em; height: 0.2em; border-radius: 50%; border: 2px solid black; padding: 0.3em; display: flex; justify-content: center; align-items: center;">
+        <a href="Products-Man.html" style="text-decoration: none; color: black; font-size: 13;">&lt;</a>
+    </div>
+    F. Inghirami Shirts
+</h1>
+            <div id="Line"></div>
+
+        <div class="container">
+            <div class="left-section">
+                <div class="thumbnail-section">
+                    <img src="https://i.etsystatic.com/10570298/r/il/c3b149/1616240312/il_fullxfull.1616240312_g6md.jpg" alt="Thumbnail 1" onclick="changeImage(1)" class="active">
+                    <img src="https://i.etsystatic.com/24002671/r/il/c621b6/4034299076/il_1588xN.4034299076_p6tc.jpg" alt="Thumbnail 2" onclick="changeImage(2)">
+                    <img src="https://i.etsystatic.com/24002671/r/il/ed3556/4034299290/il_1588xN.4034299290_ohjx.jpg" alt="Thumbnail 3" onclick="changeImage(3)">
+                    <img src="https://i.etsystatic.com/24002671/r/il/0d586c/4081946539/il_1588xN.4081946539_pm2b.jpg" alt="Thumbnail 4" onclick="changeImage(4)">
+                    <img src="https://i.etsystatic.com/24002671/r/il/14f6e3/4034299360/il_1588xN.4034299360_i5z8.jpg" alt="Thumbnail 5" onclick="changeImage(5)">
+                    <img src="https://i.etsystatic.com/24002671/r/il/6bf655/4034298378/il_1588xN.4034298378_jssv.jpg" alt="Thumbnail 6" onclick="changeImage(6)">
+                </div>
+                <div class="displayed-image-section">
+                    <img id="displayed-image" src="https://i.etsystatic.com/10570298/r/il/c3b149/1616240312/il_fullxfull.1616240312_g6md.jpg" alt="Displayed Image">
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="features-section">
+                    <h2>Product Features</h2>
+                    <div class="color-features">
+                      <ul class="color-list">
+                        <li><span class="color-circle" style="background-color: black;" onclick="selectColor(this)"></span></li>
+                        <li><span class="color-circle" style="background-color: white;" onclick="selectColor(this)"></span></li>
+                        <li><span class="color-circle" style="background-color: red;"  onclick="selectColor(this)"></span></li>
+                        <li><span class="color-circle" style="background-color: yellow;"  onclick="selectColor(this)"></span></li>
+                        <li><span class="color-circle" style="background-color: darkblue;"  onclick="selectColor(this)"></span></li>
+                      </ul>
+                    </div>
+                    <div class="size-features">
+                      <ul class="size-list">
+                        <li><label><input type="radio" name="size" value="Extra small" onclick="selectSize(this)"> XS</label></li>
+                        <li><label><input type="radio" name="size" value="small" onclick="selectSize(this)"> S</label></li>
+                        <li><label><input type="radio" name="size" value="medium" onclick="selectSize(this)"> M</label></li>
+                        <li><label><input type="radio" name="size" value="large" onclick="selectSize(this)"> L</label></li>
+                        <li><label><input type="radio" name="size" value="Extra large" onclick="selectSize(this)"> XL</label></li>
+                      </ul>
+                    </div>
+                </div>
+                    
+        <div class="description">
+            <h2>Description</h2>
+            <p>Best t-shirts in the world!</p>
+        </div>
+        <div>
+            <h2>Price</h2>
+            <h2 style="text-decoration: none;">150$ / T-shirt</h2>
+        </div>
+
+<!-----------------Actual Page--------------------Overlay Page------------------->
+
+        <button id="BuyButton" onclick="toggleOverlay()">Add to Shopping Cart</button>
+
+        <div class="overlay" id="overlay"> 
+            <button onclick="toggleOverlay()" id="close-button">&times;</button>
+            <div class="overlay-content">
+                <p style="text-align: left; font-style: bold; font-size: 170%; margin-bottom: -2%; margin-left: 2em; margin-top: 7.15em;">Shopping Cart</p>
+                                      
+            <div id="LineTwo"></div>
+                <img id="OverlayImage" src="https://i.etsystatic.com/10570298/r/il/c3b149/1616240312/il_fullxfull.1616240312_g6md.jpg" alt="Displayed Image">
+                <table style="color: white; margin-top: 5%;">
+                    <tr>                            
+                        <td><p style="text-align: left; font-weight: bold; font-size: 130%; margin-left: 7%; color: lightgrey; font-style: italic;">F. Inghirami Shirt</p></td>
+                        <td id="DeductAddItem">
+                            <div class="item">
+                                <button onclick="deductItem()">-</button>
+                                <span id="itemCount">1</span>
+                                <button onclick="addItem()">+</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                                    
+                <table id="OverlayTable">
+                    <tr>
+                        <td>
+                            <span id="ChosenColorSection">
+                            <p style="font-size: 18;">Color: <span id="ChosenColorText">N/A</span></p>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="ChosenSizeSection">
+                            <p style="font-size: 18;">Size: <span id="ChosenSizeText">N/A</span></p>
+                            </span>
+                        </td>
+                        <td style="text-align: right;">150$</td>
+                    </tr>
+                    <tr>
+                        <td><div style="border: 1px solid white; width: 250px; margin-left: -10%; margin-top: 2%; margin-bottom: 2%;"></div></td>
+                    </tr>                     
+                    <tr>
+                        <td>Total Amount</td>
+                        <td style="text-align: right;" id="TotalPrice">150$</td>
+                    </tr>
+                    <tr>    
+                        <td colspan="2">
+                            <div id="DeductAddItem">
+                                <div class="item">
+                                <input type="number" id="quantityInput" min="0" value="1">
+                                <button onclick="updateQuantity()">Update</button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                                    
+                <button onclick="addToCart()">Add to Shopping Cart</button>
+                <button onclick="checkout()">Check Out</button>
+                <div>
+                    <a onclick="toggleOverlay()" id="LinkContinueShopping">Continue Shopping</a>
+                    <button onclick="toggleOverlay()" id="close-button">&times;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------Overlay--------------------Related Products------------------->
+
+<div id="Line3Container">
+    <hr id="Line3">
+</div>
+
+<div>
+    <h2 style="font-weight: bolder; font-size: 25; text-decoration: none; margin-left: 3.5em;">You may also like</h2>
+</div>
+
+<div class="RelatedProducts">
+    <div class="Product1">
+        <a href="Shirt-F.Inghirami.html">
+            <p>Aramis</p>
+            <img src="https://i.etsystatic.com/10570298/r/il/c3b149/1616240312/il_fullxfull.1616240312_g6md.jpg" alt="Thumbnail 1">
+        </a>
+    </div>
+    
+    <div class="Product2">
+        <a href="Shirt-F.Inghirami.html">
+            <p>Aramis</p>
+            <img src="https://cdn.shopify.com/s/files/1/2031/9999/products/rustichella-dabruzzo-fusilli-product-shot-1000x1000-530x-2x_530x@2x.jpg?v=1560697425" alt="Thumbnail 2">
+        </a>
+    </div>
+    <div class="Product3">
+        <a href="Shirt-F.Inghirami.html">
+            <p>Aramis</p>
+            <img src="https://m.media-amazon.com/images/I/71T2ZJ0kq6L._AC_UF1000,1000_QL80_.jpg" alt="Thumbnail 3">
+        </a>
+    </div>
+    <div class="Product4">
+        <a href="Shirt-F.Inghirami.html">
+            <p>Aramis</p>
+            <img src="https://media.istockphoto.com/id/503626395/photo/luggage.jpg?s=612x612&w=0&k=20&c=BZb2ehulowsMWt6c15Jthk-P7yGRLbqYXdb5Q8gbUi0=" alt="Thumbnail 4">            
+        </a>
+    </div>
+</div>
+
+<!-----------------Related Products--------------------Footer------------------->
+        <footer>
+            <div class="footer-section" style="width: 7%;">
+                <img src="logo-blanc.pdf" style="max-width: 10em; height: auto; float: left; margin-left: -3.5em; margin-top: -1em;">
+            </div>
+
+            <div class="footer-section">
+                <h2 style="text-align: left; font-size: 20px; margin-bottom: 10px; text-decoration: none;">About Santiag</h2>
+                <p style="padding-right: 0.4em;">Santiag is a Belgian based company, operating since 1992. Our main goal is to provide efficient service to retailers. <br> Click <a href="History.html" style="color: white; text-decoration: underline;">here</a> for more information.</p>
+            </div>
+                
+            <div class="footer-section">
+                <h2 style="text-align: left; font-size: 20px; margin-bottom: 10px; text-decoration: none;">Customer Care</h2>
+                <ul>
+                    <li><a id="FooterLinks" href="Contact.html">Contact Us</a></li>
+                    <li><a id="FooterLinks" href="FAQ.html">FAQs</a></li>
+                    <li><a id="FooterLinks" href="ShippingReturns.html">Shipping & Returns</a></li>
+                    <li><a id="FooterLinks" href="TermsConditions.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+                
+            <div class="footer-section">
+                <h2 style="text-align: left; font-size: 20px; margin-bottom: 10px; text-decoration: none;">Our Store</h2>
+                <p style="padding-right: 0.4em;">We hope opening our first physical location very soon. Until then, enjoy our web store.</p>
+            </div>
+              
+            <div class="footer-section">
+                <h2  style="text-align: left; font-size: 20px; margin-bottom: 10px; text-decoration: none;">Special Requests</h2>
+                <ul>
+                  <li>Rubi.Crisi@gmail.com</li>
+                </ul>
+              </div>
+              <p id="RightsReserved">&copy; 2023 Santiag. All rights reserved.</p>
+        </footer>
+
+<!-----------------Footer--------------------Javascript------------------->
+
+ <script>
+                    // Function to show the ManLinks
+                    function showManLinks() {
+            document.getElementById("ManLinks").style.display = "block";
+        }
+    
+        // Function to hide the ManLinks
+        function hideManLinks() {
+            // Check if the cursor is not over the ManLinks
+            if (!isCursorOverElement("ManLinks")) {
+                document.getElementById("ManLinks").style.display = "none";
+            }
+        }
+    
+        // Function to check if the cursor is over an element
+        function isCursorOverElement(elementId) {
+            var element = document.getElementById(elementId);
+            var rect = element.getBoundingClientRect();
+            return (
+                event.clientX >= rect.left &&
+                event.clientX <= rect.right &&
+                event.clientY >= rect.top &&
+                event.clientY <= rect.bottom
+            );
+        }
+    
+        // Function to show the WomanLinks (you can add similar functions for Woman)
+        function showWomanLinks() {
+            document.getElementById("WomanLinks").style.display = "block";
+        }
+    
+        // Function to hide the WomanLinks
+        function hideWomanLinks() {
+            if (!isCursorOverElement("WomanLinks")) {
+                document.getElementById("WomanLinks").style.display = "none";
+            }
+        }
+    
+        // Add event listeners to the "Man" and "Woman" links
+        document.getElementById("StartLink1").addEventListener("mouseenter", showManLinks);
+        document.getElementById("StartLink1").addEventListener("mouseleave", hideManLinks);
+    
+        document.getElementById("StartLink2").addEventListener("mouseenter", showWomanLinks);
+        document.getElementById("StartLink2").addEventListener("mouseleave", hideWomanLinks);
+    
+        // Add event listener to the ManLinks div to keep it visible when hovering over it
+        document.getElementById("ManLinks").addEventListener("mouseenter", showManLinks);
+        document.getElementById("ManLinks").addEventListener("mouseleave", hideManLinks);
+    
+        // Add event listener to the WomanLinks div to keep it visible when hovering over it
+        document.getElementById("WomanLinks").addEventListener("mouseenter", showWomanLinks);
+        document.getElementById("WomanLinks").addEventListener("mouseleave", hideWomanLinks);
+
+        //------------------------------------------------------------------------------------
+
+    /*Changing image with the thumbnail*/
+    function changeImage(index) {
+    var displayedImage = document.getElementById('displayed-image');
+    var thumbnailImages = document.querySelectorAll('.thumbnail-section img');
+
+    for (var i = 0; i < thumbnailImages.length; i++) {
+        thumbnailImages[i].classList.remove('active');
+    }
+
+    thumbnailImages[index - 1].classList.add('active');
+    displayedImage.src = thumbnailImages[index - 1].src;
+    }
+
+    /*Picking color and size in the feature section*/
+
+    function selectColor(element) {
+      var colorCircles = document.querySelectorAll('.color-circle');
+      
+      for (var i = 0; i < colorCircles.length; i++) {
+        colorCircles[i].classList.remove('active');
+      }
+      
+      element.classList.add('active');
+    }
+    
+    function selectSize(element) {
+      var sizeLabels = document.querySelectorAll('.size-list label');
+      
+      for (var i = 0; i < sizeLabels.length; i++) {
+        sizeLabels[i].classList.remove('selected');
+      }
+      
+      element.parentNode.classList.add('selected');
+    }
+
+    /* Button function for the overlay */
+
+function toggleOverlay() {
+  var overlay = document.getElementById('overlay');
+  overlay.classList.toggle('active');
+}
+
+/* Plus and minus count in the overlay */
+var count = 1;
+var itemCountElement = document.getElementById('itemCount');
+
+function addItem() {
+  count++;
+  itemCountElement.textContent = count;
+}
+
+function deductItem() {
+  if (count > 0) {
+    count--;
+    itemCountElement.textContent = count;
+  }
+}
+
+/*Top right cross to close the overlaty*/
+function hideOverlay() {
+  var overlay = document.querySelector('.overlay');
+  overlay.classList.remove('active');
+}
+
+/*Change the total price in the overlay*/
+
+var count = 1;
+var itemCountElement = document.getElementById('itemCount');
+var totalPriceElement = document.getElementById('TotalPrice');
+var originalPrice = 150;
+
+function addItem() {
+    count++;
+    itemCountElement.textContent = count;
+    calculateTotalPrice();
+}
+
+function deductItem() {
+    if (count > 0) {
+        count--;
+        itemCountElement.textContent = count;
+        calculateTotalPrice();
+    }
+}
+
+function calculateTotalPrice() {
+    var totalPrice = (originalPrice * count).toFixed(2);
+    totalPriceElement.textContent = totalPrice + "$";
+}
+
+/*Customer inputs his own quantity*/
+function updateQuantity() {
+    var quantityInput = document.getElementById('quantityInput');
+    count = parseInt(quantityInput.value) || 0;
+    itemCountElement.textContent = count;
+    calculateTotalPrice();
+}
+
+// Chooses Size and Color and puts it in the overlay-----------------------------------------
+
+// Global variables to store selected color and size
+var selectedColor = "";
+var selectedSize = "";
+
+// Function to add the chosen article to the shopping cart
+function addToCart() {
+  // Retrieve the existing cart items from localStorage or initialize an empty array
+  var cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+
+  // Create an object representing the selected product
+  var selectedItem = {
+    productName: 'F.Inghirami Shirts',
+    productImage: 'https://media.istockphoto.com/id/1308913729/photo/variety-of-pasta.jpg?s=612x612&w=0&k=20&c=P6CWHptnGosxQ15k4-iL7R34DKHUlByGeDr3xi6pdtI=',
+    selectedColor: selectedColor,
+    selectedSize: selectedSize,
+    selectedQuantity: count,
+    totalPrice: (150 * count).toFixed(2),
+  };
+
+  // Add the selected item to the cartItems array
+  cartItems.push(selectedItem);
+
+  // Store the updated cartItems array in localStorage
+  localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+  // Redirect to the "Products.html" page or perform any other action
+  window.location.href = "Products-Man.html";
+  }
+
+ // Function to handle the "Check Out" button
+ function checkout() {
+  // Store the selected item information in local storage
+  localStorage.setItem('selectedColor', selectedColor);
+  localStorage.setItem('selectedSize', selectedSize);
+  localStorage.setItem('selectedQuantity', count);
+  localStorage.setItem('productName', 'F. Inghirami Shirts'); // Set the product name here
+  localStorage.setItem('productImage', 'https://i.etsystatic.com/10570298/r/il/c3b149/1616240312/il_fullxfull.1616240312_g6md.jpg'); // Set the product image URL here
+
+  // Calculate total price based on quantity (assuming price is $150 per item)
+  var unitPrice = 150; // Change this if the price varies
+  var totalQuantity = parseInt(count);
+  var totalPrice = unitPrice * totalQuantity;
+  localStorage.setItem('totalPrice', totalPrice);
+
+  // Redirect to the "ShoppingCartTest.html" page
+  window.location.href = "ShoppingCart.html";
+}
+
+// Picking color and size in the feature section
+function selectColor(element) {
+  var colorCircles = document.querySelectorAll('.color-circle');
+
+  for (var i = 0; i < colorCircles.length; i++) {
+    colorCircles[i].classList.remove('active');
+  }
+
+  element.classList.add('active');
+  selectedColor = element.style.backgroundColor;
+
+  // Update the chosen color in the overlay
+  document.getElementById('ChosenColorText').textContent = selectedColor;
+}
+
+  function selectSize(element) {
+    var sizeLabels = document.querySelectorAll('.size-list label');
+
+for (var i = 0; i < sizeLabels.length; i++) {
+  sizeLabels[i].classList.remove('selected');
+}
+
+element.parentNode.classList.add('selected');
+selectedSize = element.value;
+
+  // Update the chosen size in the overlay
+  document.getElementById('ChosenSizeText').textContent = selectedSize;
+}
+
+//----------------------------------------------------------------
+
+    </script> 
+    
+</body>
+<!---------------NavBar---------------------------------Intro Part-------------------->
+
+<style>
+        body {
+        margin: 0;
+    }
+
+    #Santiag {
+        color: white;
+        background-color: #0D1B2A;
+        text-align: center;
+        padding-top: 0.3em;
+        padding-bottom: 0.5em;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    #parts {
+        display: flex;
+        align-items: center;
+    }
+
+    #left-part {
+        flex: 1;
+        margin-left: 25px;
+        text-align: left;
+    }
+
+    #language {
+        color: white;
+        text-decoration: none;
+    }
+
+    #language:hover {
+        text-decoration: underline;
+    }
+
+    #middle-part {
+        flex: 2;
+        text-align: center;
+    }
+
+    #middle-part a {
+        font-size: 22;
+        letter-spacing: 1.2vw;
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    #middle-part a:hover {
+        letter-spacing: 1.6vw;
+    }
+
+    #right-part {
+        flex: 1;
+        text-align: right;
+        padding-right: 1.5em;
+        margin-top: -2.5em;
+    }
+
+    .PNG1 {
+        width: auto;
+        height: 2em;
+
+    }
+
+    .PNG2 {
+        width: auto;
+        height: 2.4em;
+    }
+
+    #StartLink1, #StartLink2, #StartLink3 {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding-top: 0;
+        padding: 0.8em;
+    }
+
+    #StartLink1:hover, #StartLink2:hover, #StartLink3:hover {
+        text-decoration: underline;
+    }
+
+    #Santiag img {
+        max-height: 2.4em; 
+        width: auto;
+        padding-top: 1em;
+    }
+
+    .HoverLinks {
+        display: none;
+        background-color: gray;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    .MiddleLinks {
+        color: white;
+        text-decoration: none;
+        padding: 0.8em;
+    }
+
+    .MiddleLinks:hover {
+        text-decoration: underline;
+    }
+
+    /*-----------------------------------------------------------------*/
+
+/*white cross top right of overlay*/
+
+    #close-button {
+        position: absolute;
+        background-color: white;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 50%;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;  
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        z-index: 1;
+        cursor: pointer;
+    }
+
+/*+- counting*/
+    #DeductAddItem {
+        position: relative;
+    }
+
+    .item {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-right: 350%;
+        transform: translate(0, -50%);
+        display: flex;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .item button {
+        width: 30px;
+        height: 100%;
+        padding: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .item button:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .item span {
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+    }
+
+/* end */
+
+#Line3Container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #Line3 {
+        border: none;
+        height: 3px;
+        background-color: black;
+        width: 80%;
+    }
+
+    .RelatedProducts {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 2em 0;
+    }
+
+    .RelatedProducts a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .RelatedProducts p {
+        font-weight: bold;
+        font-size: 20;
+        margin-top: 0.5em;
+    }
+
+    .Product1, .Product2, .Product3, .Product4 {
+        border: solid lightgrey 2px;
+        margin: 0.2em;
+        width: 25%;
+        height: 15em;
+        transition: border-color 0.3s ease;
+    }
+
+    .Product1:hover, .Product2:hover, .Product3:hover, .Product4:hover {
+        border: solid black 2.5px;
+    }
+
+    .Product1 img, .Product2 img, .Product3 img, .Product4 img {
+        height: 70%;
+        width: auto;
+    }
+
+    #LinkContinueShopping {
+        text-decoration: underline; 
+        cursor: pointer;
+        font-size: larger;
+    }
+
+    #LinkContinueShopping:hover {
+        color: lightgrey;
+    }
+
+    #OverlayImage {
+        height: 40%;
+        width: 80%;
+    }
+
+    #OverlayTable {
+        width: 80%;
+        color: white;
+        padding-top: 5%;
+        padding-left: 15%;
+        font-size: 18;
+    }
+
+    #NavBarTable {
+        width: 100%;
+        text-align: center;
+        table-layout: fixed;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+        border: 2px solid lightgrey;
+    }
+
+    .products {
+        border-bottom: 4px solid black; 
+    }
+
+    #LinkA {
+        text-decoration: none; 
+        color: black; 
+        width: 100%;
+        font-size: 1.5em;
+        padding: 0.5em; 
+        padding-left: 1em; 
+        padding-right: 1em; 
+    }
+
+    #LinkA:hover {
+        background-color: lightgrey;
+		transition: all 0.5s ease;
+        color: white; 
+    }
+
+    h1 {
+        margin-left: 2em;
+    }
+
+    #Line {
+        border: none;
+        height: 2px;
+        background-color: black;
+        margin: 20px 0;
+        width: 25em;
+    }
+
+    #LineTwo {
+        border: none;
+        height: 2px;
+        background-color: white;
+        margin: 20px 0;
+        width: 17.5em;
+        align-items: right;
+    }
+
+/* Up to you */
+
+    .container {
+        display: flex;
+        margin: 50px;
+    }
+
+    .left-section {
+        flex: 1.5;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thumbnail-section {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .thumbnail-section img {
+        width: 80px;
+        height: auto;
+        margin-right: 10px;
+        cursor: pointer;
+        border: 2px solid transparent; /* Add this line to set a transparent border initially */
+    }
+
+    .thumbnail-section img.active {
+        border-color: grey; /* Set the border color for the active thumbnail */
+    }
+
+    .displayed-image-section {
+        flex: 1;
+    }
+
+    .displayed-image-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-section {
+        flex: 1;
+        margin-left: 20px;
+        width: 30%;
+    }
+
+    .features-section {
+        margin-bottom: 30px;
+    }
+
+    .description {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .thumbnail-section img.active {
+        border: 2px solid lightgrey;
+    }
+
+/* Features Sections */
+
+    .color-features,
+    .size-features {
+        margin-bottom: 20px;
+    }
+
+    .color-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .color-list li {
+        margin-right: 10px;
+    }
+
+    .color-circle {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 3px solid white;;
+    }
+
+    .color-circle.active {
+        border-color: black;
+    }
+
+    .size-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .size-list li {
+        margin-right: 10px;
+    }
+
+    .size-list input[type="radio"] {
+        display: none;
+    }
+
+    .size-list label {
+        display: inline-block;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+        width: 6vh;
+        text-align: center;
+    }
+
+    .size-list label.selected {
+        background-color: grey;
+        color: white;
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    #BuyButton {
+        padding: 10px 20px;
+        margin-top: 50px;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+        color: white; 
+        border: none;
+        outline: none; 
+        border-radius: 20px; 
+        font-size: 1em;
+        width: 15em;
+        margin-left: 15%;
+        font-weight: normal;
+    }
+
+    #BuyButton:hover {
+        cursor: pointer;
+        background-color:rgba(0, 0, 0, 0.1);
+        color: black;
+    }
+
+    ::placeholder {
+        color: white;
+        opacity: 0.7;
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .overlay.active {
+        display: block;
+    }
+
+    .overlay-content {
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        width: 100%;
+    }
+
+    .overlay-content table {
+        width: 100%;
+    }
+
+    button {
+        width: 40%; 
+        height: 100%;
+        background-color: transparent; 
+        color: white; 
+        border: 2px solid white; 
+        font-size: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 20;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-weight: bold;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+        transition: all 0.5s ease;
+    }
+
+    footer {
+        background-color: #0D1B2A;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: white;
+    }
+
+    .footer-section {
+        width: 23%; /* Adjust the width as needed */
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #FooterLinks {
+        color: white;
+        text-decoration: none;
+    }
+
+    #FooterLinks:hover {
+        text-decoration: underline;
+    }
+
+    #RightsReserved {
+        padding-top: 1.5em;
+        width: 25%; /* Set the width */
+        margin: 0 auto; /* Center horizontally */
+    }
+    </style>
+
+   
+</html>
